@@ -34,19 +34,19 @@
 
 使用说明 USAGE
 ===============
-
-集成SSO授权，需要引入系统库：
-Security.framework
-libiconv.dylib
-SystemConfiguration.framework
-CoreGraphics.Framework
-libsqlite3.dylib
-CoreTelephony.framework
-libstdc++.dylib
-libz.dylib
+<br/>
+集成SSO授权，需要引入系统库：<br/>
+Security.framework<br/>
+libiconv.dylib<br/>
+SystemConfiguration.framework<br/>
+CoreGraphics.Framework<br/>
+libsqlite3.dylib<br/>
+CoreTelephony.framework<br/>
+libstdc++.dylib<br/>
+libz.dylib<br/>
 
 此外，关于设置URL SCKEME请查阅官方文档：http://dev.umeng.com/social/ios/detail-share#1
-
+<br/>
 
 #### 1.导入头文件
     #import "CoreUMeng.h"
