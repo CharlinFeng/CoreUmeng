@@ -39,6 +39,7 @@
 		89628D431B3D1E0300082BBD /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89628D3C1B3D1E0300082BBD /* SVIndefiniteAnimatedView.m */; };
 		89628D441B3D1E0300082BBD /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89628D3E1B3D1E0300082BBD /* SVProgressHUD.bundle */; };
 		89628D451B3D1E0300082BBD /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89628D401B3D1E0300082BBD /* SVProgressHUD.m */; };
+		89628D471B3D2DC200082BBD /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = 89628D461B3D2DC200082BBD /* show.png */; };
 		89D0666F1B3CF01400349763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D0666E1B3CF01400349763 /* main.m */; };
 		89D066721B3CF01400349763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D066711B3CF01400349763 /* AppDelegate.m */; };
 		89D066751B3CF01400349763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D066741B3CF01400349763 /* ViewController.m */; };
@@ -115,6 +116,7 @@
 		89628D3E1B3D1E0300082BBD /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		89628D3F1B3D1E0300082BBD /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		89628D401B3D1E0300082BBD /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		89628D461B3D2DC200082BBD /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
 		89D066691B3CF01400349763 /* CoreUmeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreUmeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D0666D1B3CF01400349763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D0666E1B3CF01400349763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 		89D0666C1B3CF01400349763 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89628D461B3D2DC200082BBD /* show.png */,
 				89628D321B3D039E00082BBD /* libz.dylib */,
 				89628D301B3D039400082BBD /* libstdc++.dylib */,
 				89628D2E1B3D038A00082BBD /* CoreTelephony.framework */,
@@ -479,6 +482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89628D191B3CFDB500082BBD /* UMShareEditViewController.xib in Resources */,
+				89628D471B3D2DC200082BBD /* show.png in Resources */,
 				89628D171B3CFDB500082BBD /* UMSCommentInputController.xib in Resources */,
 				89D066781B3CF01400349763 /* Main.storyboard in Resources */,
 				89628D161B3CFDB500082BBD /* UMSCommentDetailController.xib in Resources */,
