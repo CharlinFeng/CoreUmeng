@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893863FA1BA3CE3E00B096DE /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 893863F81BA3CE3E00B096DE /* libSocialSina.a */; };
+		893864081BA3CEFA00B096DE /* CoreSVP.m in Sources */ = {isa = PBXBuildFile; fileRef = 893863FE1BA3CEFA00B096DE /* CoreSVP.m */; };
+		893864091BA3CEFA00B096DE /* SVP.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 893864001BA3CEFA00B096DE /* SVP.bundle */; };
+		8938640A1BA3CEFA00B096DE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893864031BA3CEFA00B096DE /* SVIndefiniteAnimatedView.m */; };
+		8938640B1BA3CEFA00B096DE /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 893864051BA3CEFA00B096DE /* SVProgressHUD.bundle */; };
+		8938640C1BA3CEFA00B096DE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 893864071BA3CEFA00B096DE /* SVProgressHUD.m */; };
+		8938640F1BA3D92A00B096DE /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8938640E1BA3D92A00B096DE /* LoginVC.m */; };
+		893864131BA3D9C200B096DE /* CoreUMengLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 893864121BA3D9C200B096DE /* CoreUMengLogin.m */; };
 		89628C9D1B3CF2D800082BBD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628C9C1B3CF2D800082BBD /* Security.framework */; };
 		89628C9F1B3CF2E600082BBD /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628C9E1B3CF2E600082BBD /* libiconv.dylib */; };
 		89628CA11B3CF2F400082BBD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628CA01B3CF2F400082BBD /* SystemConfiguration.framework */; };
@@ -24,7 +32,6 @@
 		89628D1C1B3CFDB500082BBD /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89628CEC1B3CFDB500082BBD /* UMSnsAccountViewController.xib */; };
 		89628D1D1B3CFDB500082BBD /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89628CED1B3CFDB500082BBD /* UMSShareListController.xib */; };
 		89628D1E1B3CFDB500082BBD /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89628CEE1B3CFDB500082BBD /* UMSocialSDKResourcesNew.bundle */; };
-		89628D221B3CFDB500082BBD /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628CFB1B3CFDB500082BBD /* libSocialSina.a */; };
 		89628D231B3CFDB500082BBD /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628CFE1B3CFDB500082BBD /* libSocialQQ.a */; };
 		89628D241B3CFDB500082BBD /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628CFF1B3CFDB500082BBD /* TencentOpenAPI.framework */; };
 		89628D251B3CFDB500082BBD /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89628D001B3CFDB500082BBD /* TencentOpenApi_IOS_Bundle.bundle */; };
@@ -34,12 +41,6 @@
 		89628D2F1B3D038A00082BBD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628D2E1B3D038A00082BBD /* CoreTelephony.framework */; };
 		89628D311B3D039400082BBD /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628D301B3D039400082BBD /* libstdc++.dylib */; };
 		89628D331B3D039E00082BBD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89628D321B3D039E00082BBD /* libz.dylib */; };
-		89628D411B3D1E0300082BBD /* CoreSVP.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89628D361B3D1E0300082BBD /* CoreSVP.bundle */; };
-		89628D421B3D1E0300082BBD /* CoreSVP.m in Sources */ = {isa = PBXBuildFile; fileRef = 89628D381B3D1E0300082BBD /* CoreSVP.m */; };
-		89628D431B3D1E0300082BBD /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89628D3C1B3D1E0300082BBD /* SVIndefiniteAnimatedView.m */; };
-		89628D441B3D1E0300082BBD /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89628D3E1B3D1E0300082BBD /* SVProgressHUD.bundle */; };
-		89628D451B3D1E0300082BBD /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89628D401B3D1E0300082BBD /* SVProgressHUD.m */; };
-		89628D471B3D2DC200082BBD /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = 89628D461B3D2DC200082BBD /* show.png */; };
 		89D0666F1B3CF01400349763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D0666E1B3CF01400349763 /* main.m */; };
 		89D066721B3CF01400349763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D066711B3CF01400349763 /* AppDelegate.m */; };
 		89D066751B3CF01400349763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D066741B3CF01400349763 /* ViewController.m */; };
@@ -60,6 +61,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		893863F81BA3CE3E00B096DE /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		893863F91BA3CE3E00B096DE /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		893863FD1BA3CEFA00B096DE /* CoreSVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreSVP.h; sourceTree = "<group>"; };
+		893863FE1BA3CEFA00B096DE /* CoreSVP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreSVP.m; sourceTree = "<group>"; };
+		893864001BA3CEFA00B096DE /* SVP.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVP.bundle; sourceTree = "<group>"; };
+		893864021BA3CEFA00B096DE /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		893864031BA3CEFA00B096DE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		893864041BA3CEFA00B096DE /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		893864051BA3CEFA00B096DE /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		893864061BA3CEFA00B096DE /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		893864071BA3CEFA00B096DE /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		8938640D1BA3D92A00B096DE /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		8938640E1BA3D92A00B096DE /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		893864111BA3D9C200B096DE /* CoreUMengLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreUMengLogin.h; sourceTree = "<group>"; };
+		893864121BA3D9C200B096DE /* CoreUMengLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreUMengLogin.m; sourceTree = "<group>"; };
 		89628C9C1B3CF2D800082BBD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		89628C9E1B3CF2E600082BBD /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		89628CA01B3CF2F400082BBD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -92,8 +108,6 @@
 		89628CED1B3CFDB500082BBD /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
 		89628CEE1B3CFDB500082BBD /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
 		89628CEF1B3CFDB500082BBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
-		89628CFB1B3CFDB500082BBD /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
-		89628CFC1B3CFDB500082BBD /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
 		89628CFE1B3CFDB500082BBD /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
 		89628CFF1B3CFDB500082BBD /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		89628D001B3CFDB500082BBD /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
@@ -107,16 +121,6 @@
 		89628D2E1B3D038A00082BBD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		89628D301B3D039400082BBD /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		89628D321B3D039E00082BBD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		89628D361B3D1E0300082BBD /* CoreSVP.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CoreSVP.bundle; sourceTree = "<group>"; };
-		89628D371B3D1E0300082BBD /* CoreSVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreSVP.h; sourceTree = "<group>"; };
-		89628D381B3D1E0300082BBD /* CoreSVP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreSVP.m; sourceTree = "<group>"; };
-		89628D3B1B3D1E0300082BBD /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		89628D3C1B3D1E0300082BBD /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		89628D3D1B3D1E0300082BBD /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		89628D3E1B3D1E0300082BBD /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		89628D3F1B3D1E0300082BBD /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		89628D401B3D1E0300082BBD /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		89628D461B3D2DC200082BBD /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
 		89D066691B3CF01400349763 /* CoreUmeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreUmeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D0666D1B3CF01400349763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D0666E1B3CF01400349763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -138,13 +142,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893863FA1BA3CE3E00B096DE /* libSocialSina.a in Frameworks */,
 				89628D331B3D039E00082BBD /* libz.dylib in Frameworks */,
 				89628D311B3D039400082BBD /* libstdc++.dylib in Frameworks */,
 				89628D2F1B3D038A00082BBD /* CoreTelephony.framework in Frameworks */,
 				89628D2D1B3D037F00082BBD /* libsqlite3.dylib in Frameworks */,
 				89628D231B3CFDB500082BBD /* libSocialQQ.a in Frameworks */,
 				89628D281B3CFDB600082BBD /* libWeChatSDK.a in Frameworks */,
-				89628D221B3CFDB500082BBD /* libSocialSina.a in Frameworks */,
 				89628D241B3CFDB500082BBD /* TencentOpenAPI.framework in Frameworks */,
 				89628CA11B3CF2F400082BBD /* SystemConfiguration.framework in Frameworks */,
 				89628C9F1B3CF2E600082BBD /* libiconv.dylib in Frameworks */,
@@ -164,6 +168,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		893863F71BA3CE3E00B096DE /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				893863F81BA3CE3E00B096DE /* libSocialSina.a */,
+				893863F91BA3CE3E00B096DE /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		893863FB1BA3CEE200B096DE /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				893863FC1BA3CEFA00B096DE /* CoreSVP */,
+			);
+			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		893863FC1BA3CEFA00B096DE /* CoreSVP */ = {
+			isa = PBXGroup;
+			children = (
+				893863FD1BA3CEFA00B096DE /* CoreSVP.h */,
+				893863FE1BA3CEFA00B096DE /* CoreSVP.m */,
+				893863FF1BA3CEFA00B096DE /* Lib */,
+			);
+			path = CoreSVP;
+			sourceTree = "<group>";
+		};
+		893863FF1BA3CEFA00B096DE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				893864001BA3CEFA00B096DE /* SVP.bundle */,
+				893864011BA3CEFA00B096DE /* SVProgressHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		893864011BA3CEFA00B096DE /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				893864021BA3CEFA00B096DE /* SVIndefiniteAnimatedView.h */,
+				893864031BA3CEFA00B096DE /* SVIndefiniteAnimatedView.m */,
+				893864041BA3CEFA00B096DE /* SVProgressHUD-Prefix.pch */,
+				893864051BA3CEFA00B096DE /* SVProgressHUD.bundle */,
+				893864061BA3CEFA00B096DE /* SVProgressHUD.h */,
+				893864071BA3CEFA00B096DE /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		893864101BA3D9A400B096DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				893864111BA3D9C200B096DE /* CoreUMengLogin.h */,
+				893864121BA3D9C200B096DE /* CoreUMengLogin.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		89628CCE1B3CFA7300082BBD /* Share */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,20 +285,11 @@
 		89628CF01B3CFDB500082BBD /* UMSocial_Sdk_Extra_Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				89628CFA1B3CFDB500082BBD /* Sina */,
+				893863F71BA3CE3E00B096DE /* Sina */,
 				89628CFD1B3CFDB500082BBD /* TencentOpenAPI */,
 				89628D051B3CFDB500082BBD /* Wechat */,
 			);
 			path = UMSocial_Sdk_Extra_Frameworks;
-			sourceTree = "<group>";
-		};
-		89628CFA1B3CFDB500082BBD /* Sina */ = {
-			isa = PBXGroup;
-			children = (
-				89628CFB1B3CFDB500082BBD /* libSocialSina.a */,
-				89628CFC1B3CFDB500082BBD /* UMSocialSinaHandler.h */,
-			);
-			path = Sina;
 			sourceTree = "<group>";
 		};
 		89628CFD1B3CFDB500082BBD /* TencentOpenAPI */ = {
@@ -262,46 +315,6 @@
 			path = Wechat;
 			sourceTree = "<group>";
 		};
-		89628D341B3D1DE000082BBD /* FrameWorks */ = {
-			isa = PBXGroup;
-			children = (
-				89628D351B3D1E0300082BBD /* CoreSVP */,
-			);
-			path = FrameWorks;
-			sourceTree = "<group>";
-		};
-		89628D351B3D1E0300082BBD /* CoreSVP */ = {
-			isa = PBXGroup;
-			children = (
-				89628D361B3D1E0300082BBD /* CoreSVP.bundle */,
-				89628D371B3D1E0300082BBD /* CoreSVP.h */,
-				89628D381B3D1E0300082BBD /* CoreSVP.m */,
-				89628D391B3D1E0300082BBD /* Lib */,
-			);
-			path = CoreSVP;
-			sourceTree = "<group>";
-		};
-		89628D391B3D1E0300082BBD /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				89628D3A1B3D1E0300082BBD /* SVProgressHUD */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		89628D3A1B3D1E0300082BBD /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				89628D3B1B3D1E0300082BBD /* SVIndefiniteAnimatedView.h */,
-				89628D3C1B3D1E0300082BBD /* SVIndefiniteAnimatedView.m */,
-				89628D3D1B3D1E0300082BBD /* SVProgressHUD-Prefix.pch */,
-				89628D3E1B3D1E0300082BBD /* SVProgressHUD.bundle */,
-				89628D3F1B3D1E0300082BBD /* SVProgressHUD.h */,
-				89628D401B3D1E0300082BBD /* SVProgressHUD.m */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
 		89D066601B3CF01400349763 = {
 			isa = PBXGroup;
 			children = (
@@ -324,11 +337,13 @@
 			isa = PBXGroup;
 			children = (
 				89D0670F1B3CF22E00349763 /* CoreUMeng */,
-				89628D341B3D1DE000082BBD /* FrameWorks */,
+				893863FB1BA3CEE200B096DE /* FrameWorks */,
 				89D066701B3CF01400349763 /* AppDelegate.h */,
 				89D066711B3CF01400349763 /* AppDelegate.m */,
 				89D066731B3CF01400349763 /* ViewController.h */,
 				89D066741B3CF01400349763 /* ViewController.m */,
+				8938640D1BA3D92A00B096DE /* LoginVC.h */,
+				8938640E1BA3D92A00B096DE /* LoginVC.m */,
 				89D066761B3CF01400349763 /* Main.storyboard */,
 				89D0670E1B3CF0A000349763 /* APPHeader.h */,
 				89D066791B3CF01400349763 /* Images.xcassets */,
@@ -341,7 +356,6 @@
 		89D0666C1B3CF01400349763 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				89628D461B3D2DC200082BBD /* show.png */,
 				89628D321B3D039E00082BBD /* libz.dylib */,
 				89628D301B3D039400082BBD /* libstdc++.dylib */,
 				89628D2E1B3D038A00082BBD /* CoreTelephony.framework */,
@@ -375,6 +389,7 @@
 		89D0670F1B3CF22E00349763 /* CoreUMeng */ = {
 			isa = PBXGroup;
 			children = (
+				893864101BA3D9A400B096DE /* Login */,
 				89628CCE1B3CFA7300082BBD /* Share */,
 				89628CC81B3CF59500082BBD /* CoreUMeng.h */,
 				89628CC91B3CF59500082BBD /* CoreUMeng.m */,
@@ -482,18 +497,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				89628D191B3CFDB500082BBD /* UMShareEditViewController.xib in Resources */,
-				89628D471B3D2DC200082BBD /* show.png in Resources */,
+				8938640B1BA3CEFA00B096DE /* SVProgressHUD.bundle in Resources */,
 				89628D171B3CFDB500082BBD /* UMSCommentInputController.xib in Resources */,
 				89D066781B3CF01400349763 /* Main.storyboard in Resources */,
 				89628D161B3CFDB500082BBD /* UMSCommentDetailController.xib in Resources */,
 				89628D251B3CFDB500082BBD /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				89628D1B1B3CFDB500082BBD /* UMSLoginViewController.xib in Resources */,
 				89628D181B3CFDB500082BBD /* UMSCommentInputControlleriPad.xib in Resources */,
-				89628D411B3D1E0300082BBD /* CoreSVP.bundle in Resources */,
 				89628D1A1B3CFDB500082BBD /* UMShareEditViewControlleriPad.xib in Resources */,
 				89D0667D1B3CF01400349763 /* LaunchScreen.xib in Resources */,
 				89628D141B3CFDB500082BBD /* UMSocialLocalizable.strings in Resources */,
-				89628D441B3D1E0300082BBD /* SVProgressHUD.bundle in Resources */,
+				893864091BA3CEFA00B096DE /* SVP.bundle in Resources */,
 				89D0667A1B3CF01400349763 /* Images.xcassets in Resources */,
 				89628D1C1B3CFDB500082BBD /* UMSnsAccountViewController.xib in Resources */,
 				89628D1D1B3CFDB500082BBD /* UMSShareListController.xib in Resources */,
@@ -517,13 +531,15 @@
 			files = (
 				89D066751B3CF01400349763 /* ViewController.m in Sources */,
 				89D066721B3CF01400349763 /* AppDelegate.m in Sources */,
+				893864131BA3D9C200B096DE /* CoreUMengLogin.m in Sources */,
+				8938640F1BA3D92A00B096DE /* LoginVC.m in Sources */,
 				89628CCA1B3CF59500082BBD /* CoreUMeng.m in Sources */,
-				89628D431B3D1E0300082BBD /* SVIndefiniteAnimatedView.m in Sources */,
+				8938640A1BA3CEFA00B096DE /* SVIndefiniteAnimatedView.m in Sources */,
 				89628CD41B3CFA7300082BBD /* UIViewController+Umeng.m in Sources */,
-				89628D451B3D1E0300082BBD /* SVProgressHUD.m in Sources */,
+				8938640C1BA3CEFA00B096DE /* SVProgressHUD.m in Sources */,
 				89D0666F1B3CF01400349763 /* main.m in Sources */,
 				89628CD31B3CFA7300082BBD /* CoreUmengShare.m in Sources */,
-				89628D421B3D1E0300082BBD /* CoreSVP.m in Sources */,
+				893864081BA3CEFA00B096DE /* CoreSVP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

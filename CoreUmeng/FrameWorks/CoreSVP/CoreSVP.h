@@ -11,10 +11,19 @@
 #import <UIKit/UIKit.h>
 #import "SVProgressHUD.h"
 
+#define CoreSVPSuccess(msg) [CoreSVP showSVPWithType:CoreSVPTypeSuccess Msg:msg duration:1.5 allowEdit:NO beginBlock:nil completeBlock:nil];
+#define CoreSVPError(msg) [CoreSVP showSVPWithType:CoreSVPTypeError Msg:msg duration:2.0 allowEdit:NO beginBlock:nil completeBlock:nil];
+#define CoreSVPLoading(msg,allow) [CoreSVP showSVPWithType:CoreSVPTypeLoadingInterface Msg:msg duration:0 allowEdit:allow beginBlock:nil completeBlock:nil];
+
+
+
+
 
 typedef enum {
     
-    CoreSVPTypeCenterMsg=0,                                                                 //无图片普通提示，显示在屏幕正中间
+    CoreSVPTypeNone = 0,                                                                    //默认无状态
+    
+    CoreSVPTypeCenterMsg,                                                                   //无图片普通提示，显示在屏幕正中间
     
     CoreSVPTypeBottomMsg,                                                                   //无图片普通提示，显示在屏幕下方，tabbar之上
     
@@ -63,4 +72,12 @@ typedef enum {
  */
 +(void)dismiss;
 
+
 @end
+
+
+
+
+
+
+

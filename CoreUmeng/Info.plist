@@ -34,7 +34,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>qq</string>
+			<string>QQ</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>QQ05FC5B14</string>
@@ -54,18 +54,20 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>wb</string>
+			<string>sina</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>sina.507fcab25270157b37000010</string>
+				<string>sina.558cb75067e58e0642001f81</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>sina</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wb801345073</string>
+				<string>wb4189219107</string>
 			</array>
 		</dict>
 	</array>

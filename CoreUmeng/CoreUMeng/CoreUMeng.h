@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CoreUmengShare.h"
+#import "CoreUMengLogin.h"
 
 @interface CoreUMeng : NSObject
 

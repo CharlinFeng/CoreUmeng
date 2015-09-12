@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H7Z-T7-D7U">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--社交化分享-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -26,13 +26,99 @@
                                     <action selector="share:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="L6d-FX-x9Y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFr-b5-C11">
+                                <rect key="frame" x="145" y="518" width="30" height="30"/>
+                                <state key="normal" title="登陆">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zsE-Pt-6xb" kind="push" id="6lj-rZ-Xth"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="hFr-b5-C11" secondAttribute="centerX" id="Z2m-3s-qIz"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="hFr-b5-C11" secondAttribute="bottom" constant="20" id="cFi-2P-46p"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="社交化分享" id="lWk-X9-qJR"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-4" y="541"/>
+        </scene>
+        <!--第三方登陆-->
+        <scene sceneID="rgI-F4-zvp">
+            <objects>
+                <viewController id="zsE-Pt-6xb" customClass="LoginVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wzH-Xc-3Nz"/>
+                        <viewControllerLayoutGuide type="bottom" id="nH0-5o-aBe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wna-Fo-n0N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bU-ua-Tfq">
+                                <rect key="frame" x="71" y="125" width="175" height="45"/>
+                                <color key="backgroundColor" red="0.99069695719999995" green="0.44657175160000001" blue="0.41704358559999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="新浪微博">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sinaBtnClick:" destination="zsE-Pt-6xb" eventType="touchUpInside" id="0PG-Co-f2W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgq-Zr-Mus">
+                                <rect key="frame" x="71" y="198" width="175" height="45"/>
+                                <color key="backgroundColor" red="0.99069695719999995" green="0.44657175160000001" blue="0.41704358559999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="QQ登陆">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="qqLogin:" destination="zsE-Pt-6xb" eventType="touchUpInside" id="3KM-c0-yM0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxI-Mk-GWq">
+                                <rect key="frame" x="73" y="261" width="175" height="45"/>
+                                <color key="backgroundColor" red="0.99069695719999995" green="0.44657175160000001" blue="0.41704358559999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="微信登陆">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="wxLogin:" destination="zsE-Pt-6xb" eventType="touchUpInside" id="I43-vT-nlu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第三方登陆" id="fOd-MC-0jU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eGR-U1-uAl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="341" y="541"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VHH-LT-Zzk">
+            <objects>
+                <navigationController id="H7Z-T7-D7U" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VJT-Hz-jJ6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Cdj-Vr-4eh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pQM-qB-ueh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-349" y="541"/>
         </scene>
     </scenes>
 </document>

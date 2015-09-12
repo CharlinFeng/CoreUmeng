@@ -22,15 +22,14 @@
     //设置AppKey
     [CoreUMeng umengSetAppKey:UmengAppKey];
     //集成新浪
-    [CoreUMeng umengSetSinaSSOWithRedirectURL:@"http://www.baidu.com"];
+    [CoreUMeng umengSetSinaSSOWithRedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
     //集成微信
     [CoreUMeng umengSetWXAppId:WXAPPID appSecret:WXAPPsecret url:WXUrl];
     //集成QQ
-    [CoreUMeng umengSetQQAppId:@"100424468" appSecret:@"c7394704798a158208a74ab60104f0ba" url:@"http://www.umeng.com/social"];
+    [CoreUMeng umengSetQQAppId:@"100424468" appSecret:@"c7394704798a158208a74ab60104f0ba" url:nil];
     // Override point for customization after application launch.
     return YES;
 }
-
 
 
 
