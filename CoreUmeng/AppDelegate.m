@@ -26,7 +26,7 @@
     //集成微信
     [CoreUMeng umengSetWXAppId:WXAPPID appSecret:WXAPPsecret url:WXUrl];
     //集成QQ
-    [CoreUMeng umengSetQQAppId:@"100424468" appSecret:@"c7394704798a158208a74ab60104f0ba" url:nil];
+    [CoreUMeng umengSetQQAppId:@"100424468" appSecret:@"c7394704798a158208a74ab60104f0ba" url:@"http://www.qq.com/"];
     // Override point for customization after application launch.
     return YES;
 }
